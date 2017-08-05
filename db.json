@@ -1,0 +1,32 @@
+{
+  "notifications": [
+    {
+      "id": "asdfasdf",
+      "message": "Testing 1 2 3",
+      "match": "/",
+      "behavior": {
+        "randomOrder": false,
+        "minDelay": 2000,
+        "maxDelay": 3000,
+        "hideOnMobile": false,
+        "userDismissible": true,
+        "openInTab": true,
+        "maxNotificationsPerSession": 100,
+        "position": "BottomLeft"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "asdfasdf",
+      "messages": [
+        {
+          "imageUrl": "https://placekitten.com/350/350",
+          "title": "Peter from Atlanta, GA",
+          "message": "Recently started a FREE trial...",
+          "timestamp": 1501957953
+        }
+      ]
+    }
+  ]
+}
