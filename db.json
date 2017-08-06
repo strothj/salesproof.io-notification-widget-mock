@@ -1,9 +1,26 @@
 {
   "notifications": [
     {
-      "id": "asdfasdf",
+      "id": "page2-id",
       "message": "Testing 1 2 3",
-      "match": "/",
+      "match": "/\\/examples\\/[a-z\\-]*\\/build\\/page2/",
+      "localizationCode": "en",
+      "behavior": {
+        "randomOrder": false,
+        "minDelay": 2000,
+        "maxDelay": 3000,
+        "hideOnMobile": false,
+        "userDismissible": true,
+        "openInTab": true,
+        "maxNotificationsPerSession": 100,
+        "position": "BottomLeft"
+      }
+    },
+    {
+      "id": "home-id",
+      "message": "Testing 1 2 3",
+      "match": "/\\/examples\\/[a-z\\-]*\\/build/",
+      "localizationCode": "en",
       "behavior": {
         "randomOrder": false,
         "minDelay": 2000,
@@ -18,7 +35,18 @@
   ],
   "messages": [
     {
-      "id": "asdfasdf",
+      "id": "page2-id",
+      "messages": [
+        {
+          "imageUrl": "https://placekitten.com/350/350",
+          "title": "Bob from Atlanta, GA",
+          "message": "Recently started a FREE trial...",
+          "timestamp": 1501957953
+        }
+      ]
+    },
+    {
+      "id": "home-id",
       "messages": [
         {
           "imageUrl": "https://placekitten.com/350/350",
